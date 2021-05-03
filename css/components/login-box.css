@@ -1,0 +1,21 @@
+.login-box {
+    position: absolute;
+    width: 320px;
+    height: 420px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    background-color: #2c2d42;
+    border-radius: 20px;
+    color: #FFF;
+    padding: 68px 28px;
+    box-shadow: -10px 10px 0px #484455;
+}
+
+.login-box a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 11px;
+    font-weight: bold;
+}

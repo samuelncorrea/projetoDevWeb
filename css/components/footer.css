@@ -1,0 +1,17 @@
+.footer {
+    display: flex;
+    position: absolute;
+    justify-content: space-around;
+    bottom: 0;
+    width: 100%;
+    background-color: #2c2d42;
+    border-top: 5px solid #484455;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: #FFF;
+}
+
+.footer i {
+    width: 60px;
+    font-size: 23px;
+}
