@@ -1,0 +1,24 @@
+.navbar {
+    background-color: #2c2d42;
+    border-bottom: 5px solid #484455;
+    margin-bottom: 15px;
+}
+
+.container {
+    margin-bottom: 15px;
+}
+
+.card-header {
+    background-color: #484455;
+    color: #FFF;
+}
+
+.card-body {
+    background-color: #2c2d42;
+    color: #FFF;
+}
+
+.mg {
+    margin-right: 15px;
+    margin-bottom: 25px;
+} 

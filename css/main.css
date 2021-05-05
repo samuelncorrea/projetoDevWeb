@@ -4,6 +4,7 @@
 @import url(components/user-input.css);
 @import url(components/button.css);
 @import url(components/footer.css);
+@import url(components/bootstrap-alterations.css);
 
 body {
     background-image: url("../assets/bg.jpg");
