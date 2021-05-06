@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>DFW</title>
+    <title>DailyScience</title>
+
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
@@ -15,7 +17,7 @@
 
   <div class="containerfluid">
     <nav class="navbar navbar-expand-lg navbar-dark ">
-      <a class="navbar-brand" href="login.html">SN</a>
+      <a class="navbar-brand" href="login.html"><img src="assets/logo.png" alt="logo DailyScience" style="width: 40px;"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -33,9 +35,6 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Medicina</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Arqueologia</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Tecnologia</a>
@@ -92,7 +91,7 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="container" id="astro">
       <div class="card-deck">
         <div class="card">
           <img class="card-img-top" src="assets/perseverance.jpg" alt="Rover Perseverance">
@@ -105,7 +104,45 @@
           </div>
         </div>
         <div class="card">
-          <img class="card-img-top" src="assets/coding.jpg" alt="Imagem de capa do card">
+          <img class="card-img-top" src="assets/spacex.jpeg" alt="Nave Espacial - spacex">
+          <div class="card-body">
+            <h5 class="card-title">NASA Seleciona SpaceX Para Pousar Os Próximos Astronautas na Lua</h5>
+            <p class="card-text">A NASA está ficando pronta para mandar os astronautas para explorarem a Lua, como parte do Programa Artemis, e a agência selecionou a SpaceX para continuar o desenvolvimento do primeiro lander comercial humano, quer irá levar de forma segura os próximos dois astronautas para a superfície da Lua. No mínimo um desses astronautas entrará para a história como sendo a primeira mulher a pisar na Lua. O outro objetivo do Programa Artemis inclui também pousar o primeiro afro-americano na superfície lunar.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Astronomia</small>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="assets/earth.jpg" alt="Imagem da Tera">
+          <div class="card-body">
+            <h5 class="card-title">Mudança climática está alterando o eixo de rotação da Terra</h5>
+            <p class="card-text">
+            Nos últimos 30 anos, o eixo do planeta teve um deslocamento acelerado. Desde 1980, a posição dos polos mudou cerca de quatro metros no sentido leste, diz o trabalho.
+              
+            A avaliação da chamada deriva polar, o termo que denomina esse o movimento dos pólos, indica que o fluxo mudou completamente de direção em 1995 e, entre aquele ano e 2020, a velocidade do movimento dos pólos aumentou cerca de 17 vezes em comparação com o observado entre 1981 e 1995.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Astronomia</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="tech">
+      <div class="card-deck">
+        <div class="card">
+          <a href=""><img class="card-img-top" src="assets/whats.png" alt="Whatsapp"></a>
+          <div class="card-body">
+            <h5 class="card-title">WhatsApp passa a permitir transferência de dinheiro pelo aplicativo</h5>
+            <p class="card-text">O WhatsApp liberou a opção de transferência de dinheiro pelo aplicativo. A atualização está disponível a partir desta 3ª feira (4.mai.2021), mas aparecerá gradualmente para todos os usuários brasileiros. O serviço não cobrará tarifas para realizar a movimentação.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Tecnologia</small>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="assets/coding.jpg" alt="código/programação">
           <div class="card-body">
             <h5 class="card-title">JavaScript mais popular!</h5>
             <p class="card-text">JavaScript é a linguagem mais popular, mas Rust é a que mais cresce: em termos de popularidade, o destaque também fica com Python e Java, em segundo e terceiro lugar, respectivamente. O Rust, apesar de ainda pouco utilizado, está ganhando tração: o Google vai utilizar a linguagem para códigos no Android por causa de suas garantias em segurança de memória. Os dados são da mais recente pesquisa da SlashData com 19 mil desenvolvedores, de 155 países diferentes, realizada no primeiro trimestre de 2021.</p>
@@ -115,83 +152,58 @@
           </div>
         </div>
         <div class="card">
-          <img class="card-img-top" src=".../100px180/" alt="Imagem de capa do card">
+          <img class="card-img-top" src="assets/ebook.jpeg" alt="kindle">
           <div class="card-body">
-            <h5 class="card-title">Título do card</h5>
-            <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este card tem o conteúdo ainda maior que o primeiro, para mostrar a altura igual, em ação.</p>
+            <h5 class="card-title">Consumo de livros digitais escala com pandemia de Covid-19 </h5>
+            <p class="card-text">A pandemia de Covid-19 acelerou algumas tendências de consumo mundo afora. Não foi diferente com a leitura. Com as livrarias fechadas em função das medidas restritivas para evitar o contágio pelo vírus, o canal digital de vendas explodiu, consagrando não só os sites de e-commerce mais conhecidos (como a Amazon), mas também outros modelos de negócios que ainda estavam num estágio incipiente. </p>
           </div>
           <div class="card-footer">
-            <small class="text-muted">Atualizados 3 minutos atrás</small>
+            <small class="text-muted">Tecnologia</small>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="container">
+    <div class="container" id="pandemics">
       <div class="card-deck">
         <div class="card">
-          <img class="card-img-top" src=".../100px180/" alt="Imagem de capa do card">
+          <img class="card-img-top" src="assets/pandemia.png" alt="Leito de hospital">
           <div class="card-body">
-            <h5 class="card-title">Título do card</h5>
-            <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este conteúdo é um pouco maior, para demonstração.</p>
+            <h5 class="card-title"></h5>'Pandemia no Brasil foi diferente do resto do mundo'</h5>
+              <p class="card-text">O Brasil atingiu a marca de 200 mil mortes por Covid-19 no dia 7 de janeiro de 2021. Os 300 mil óbitos foram registrados 77 dias depois, em 25/3.
+  
+              Para alcançar as 400 mil vítimas da infecção pelo coronavírus, o prazo foi cortado pela metade: bastaram 35 dias para que, neste 29/4, o país fatalmente se aproximasse do número e ficasse à beira de se tornar o segundo lugar do mundo a quebrar essa barreira (após os Estados Unidos)..</p>
           </div>
           <div class="card-footer">
-            <small class="text-muted">Atualizados 3 minutos atrás</small>
+            <small class="text-muted">Covid</small>
           </div>
         </div>
         <div class="card">
-          <img class="card-img-top" src="assets/perseverance.jpg" alt="Imagem de capa do card">
+          <img class="card-img-top" src="assets/vacina.jfif" alt="Vacina">
           <div class="card-body">
-            <h5 class="card-title">Título do card</h5>
-            <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
+            <h5 class="card-title">EUA declaram apoio à suspensão de patentes de vacinas contra a Covid-19</h5>
+            <p class="card-text">O governo dos Estados Unidos declarou nesta quarta-feira, 5, seu apoio à suspensão das patentes das vacinas contra a Covid-19. O tema é discutido atualmente por embaixadores das principais potenciais mundiais em uma reunião da Organização Mundial do Comércio (OMC).</p>
           </div>
           <div class="card-footer">
-            <small class="text-muted">Atualizados 3 minutos atrás</small>
+            <small class="text-muted">Covid</small>
           </div>
         </div>
         <div class="card">
-          <img class="card-img-top" src=".../100px180/" alt="Imagem de capa do card">
+          <img class="card-img-top" src="assets/covid.jpg" alt="covid">
           <div class="card-body">
-            <h5 class="card-title">Título do card</h5>
-            <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este card tem o conteúdo ainda maior que o primeiro, para mostrar a altura igual, em ação.</p>
-          </div>
-          <div class="card-footer">
-            <small class="text-muted">Atualizados 3 minutos atrás</small>
-          </div>
-        </div>
-      </div>
-    </div>
+            <h5 class="card-title">'Políticos favorecem ciência que se alinha com suas próprias preferências'</h5>
+            <p class="card-text">"Estamos seguindo o que diz a ciência".
 
-    <div class="container">
-      <div class="card-deck">
-        <div class="card">
-          <img class="card-img-top" src=".../100px180/" alt="Imagem de capa do card">
-          <div class="card-body">
-            <h5 class="card-title">Título do card</h5>
-            <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este conteúdo é um pouco maior, para demonstração.</p>
+              Desde o início da pandemia, governos e autoridades têm usado essa frase para explicar as ações que tomam para impedir a disseminação do coronavírus.
+              
+              Alguns especialistas, entretanto, acreditam que uma frase que soa tão sensata pode ter implicações mais profundas.
+              
+              "A forma como a ciência se transforma em política pública depende de cálculos políticos e econômicos, bem como dos compromissos morais e ideológicos de políticos, partidos e assessores", escreveu a socióloga Jana Bacevic em uma coluna do Guardian, em abril de 2020.
+              
+              "Raramente, ou nunca, é apenas sobre 'ciência'.</p>
           </div>
           <div class="card-footer">
-            <small class="text-muted">Atualizados 3 minutos atrás</small>
-          </div>
-        </div>
-        <div class="card">
-          <img class="card-img-top" src="assets/perseverance.jpg" alt="Imagem de capa do card">
-          <div class="card-body">
-            <h5 class="card-title">Título do card</h5>
-            <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
-          </div>
-          <div class="card-footer">
-            <small class="text-muted">Atualizados 3 minutos atrás</small>
-          </div>
-        </div>
-        <div class="card">
-          <img class="card-img-top" src=".../100px180/" alt="Imagem de capa do card">
-          <div class="card-body">
-            <h5 class="card-title">Título do card</h5>
-            <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este card tem o conteúdo ainda maior que o primeiro, para mostrar a altura igual, em ação.</p>
-          </div>
-          <div class="card-footer">
-            <small class="text-muted">Atualizados 3 minutos atrás</small>
+            <small class="text-muted">Covid</small>
           </div>
         </div>
       </div>
@@ -211,6 +223,14 @@
       </div>
     </div>
 
+    <footer class="footer -second">
+      <nav>
+        <a href="https://www.instagram.com/samuelnc/"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.instagram.com/samuelnc/"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/samuelnc/"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com/samuelnc/"><i class="fab fa-linkedin-in"></i></a>
+      </nav>
+    </footer>
 
     <script src="https://kit.fontawesome.com/5af0bc1dc9.js"  crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
