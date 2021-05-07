@@ -5,6 +5,8 @@
 @import url(components/button.css);
 @import url(components/footer.css);
 @import url(components/bootstrap-alterations.css);
+@import url(components/comment-input.css);
+@import url(components/comment.css);
 
 body {
     background-image: url("../assets/bg.jpg");

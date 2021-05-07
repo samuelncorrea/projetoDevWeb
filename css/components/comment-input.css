@@ -1,0 +1,11 @@
+.comment-input {
+    width: 100%;
+    overflow: hidden;
+    background-color: #2c2d42;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border: 2px solid #FFF;
+    color: #FFF;
+}
+
